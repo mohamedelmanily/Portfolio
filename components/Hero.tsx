@@ -30,7 +30,7 @@ const Hero = () => {
                             words="Transforming pixels into perfection, one line of code at a time."
                         />
                         <p className="capitalize text-center md:tracking-wider mb-4 text-sm  md:text-lg lg:text-2xl">
-                            hi ,i&apos;m mohamed elmanily react developer
+                            hi! i&apos;m mohamed elmanily react developer
                         </p>
                         <a href="/about"><MagicButton title='show my work' position='right' icon={<IoIosSend />} /></a>
                     </div>

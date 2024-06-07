@@ -72,19 +72,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Prayer Now",
+      des: "Get accurate prayer times for different cities in Egypt and countdown to the next prayer. Stay connected to your faith wherever you are.",
       img: "/1.png",
       iconLists: ["/re.svg", "/axios-icon.svg", "/moment-js.svg", "/material-ui-1.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://prayer-with-react.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "City Store",
+      des: "Your go-to destination for the latest fashion. Discover unbeatable deals and shop with confidence.",
       img: "/2.png",
       iconLists: ["/re.svg", "/axios-icon.svg", "/material-ui-1.svg", "/strapi-2.svg", "/sass-1.svg",'/redux.svg'],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/mohamedelmanily/Store",
     },
     {
       id: 3,
@@ -92,7 +92,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/3.png",
       iconLists: ["/html-1.svg", "/css-3.svg", "/javascript-1.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://e-commerce-mu-sand-54.vercel.app/",
     },
 
   ];

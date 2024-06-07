@@ -18,7 +18,7 @@ const Hero = () => {
                     fill="purple"
                 />
                 <Spotlight className="top-28 left-80 h-[80vh] w-[50vw] " fill="blue" />
-                <div className=" h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.05] absolute top-0 left-0 flex items-center justify-center">
+                <div className=" h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.04] bg-grid-black/[0.04] absolute top-0 left-0 flex items-center justify-center">
                     <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
                 </div>
                 <div className="flex items-center justify-center relative my-20 z-10">
@@ -33,7 +33,7 @@ const Hero = () => {
                         <p className="capitalize text-center md:tracking-wider mb-4 text-sm  md:text-lg lg:text-2xl">
                             hi! i&apos;m mohamed elmanily react developer
                         </p>
-                        <Link href="/about"> {/* Use Link from next/link */}
+                        <Link href="#projects"> {/* Use Link from next/link */}
                             <MagicButton title='show my work' position='right' icon={<IoIosSend />} />
                         </Link>
                     </div>

@@ -3,7 +3,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { IconBriefcase, IconBriefcase2, IconBriefcase2Filled, IconHome, IconUser } from "@tabler/icons-react";
+import {  IconBriefcase2,  IconHome, IconUser } from "@tabler/icons-react";
 
 export default function Home() {
   const navItems = [

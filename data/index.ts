@@ -198,14 +198,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:'https://github.com/mohamedelmanily'
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/facebook.svg",
+      link:'https://www.facebook.com/profile.php?id=100013727589298'
     },
     {
       id: 3,
       img: "/link.svg",
+      link:'https://www.linkedin.com/in/mohamed-elmanily-8989111b9/'
     },
   ];
   

@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-Pin";
 import { FaLocationArrow } from "react-icons/fa6";
+import Link from "next/link";
 
 const RecentProjects = () => {
     return (
@@ -17,7 +18,7 @@ const RecentProjects = () => {
                         key={id}
                         className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
                     >
-                    <a href={link} target="_blank">
+                <Link target="_blank" href={link}>                 
                         <PinContainer title='visit' href="https://twitter.com">
                             <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                                 <div
@@ -54,7 +55,7 @@ const RecentProjects = () => {
                                 </div>
                             </div>
                         </PinContainer>
-                        </a>
+                        </Link>
                     </div>
                 ))}
             </div>
